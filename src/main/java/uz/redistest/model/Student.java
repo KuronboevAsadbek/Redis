@@ -7,8 +7,6 @@ import org.springframework.data.redis.core.RedisHash;
 import java.io.Serializable;
 
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 @RedisHash("Student")
 public class Student implements Serializable {
     //
